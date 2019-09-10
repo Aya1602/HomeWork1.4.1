@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Main {
 
-    public static int[] health = {2000, 250, 250, 250, 250};
+    public static int[] health = {700, 250, 250, 250, 250};
     public static int[] hits = {50, 20, 20, 20, 15};
     public static String[] hitTypes = {"Physical", "Physical",
             "Magical", "Mental", "Medic"};
@@ -13,6 +13,8 @@ public class Main {
             changeBossDefence();
             round();
             printStatistic();
+
+
         }
     }
 
